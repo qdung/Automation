@@ -1,0 +1,12 @@
+# GLOBAL CONFIG define below
+browser: Chrome
+url: http://lms.codetown.io/login/canvas
+scenarioExcel: ./excel/scenario.xlsx
+# HTML, CSS, XPATH for each screen define below
+xpath:
+  login:
+    username: /html/body/div[2]/div[2]/div/div/div[1]/div/div/div/div/div/div[2]/form[1]/div[1]/input
+    password: /html/body/div[2]/div[2]/div/div/div[1]/div/div/div/div/div/div[2]/form[1]/div[2]/input
+    buttonLogin: /html/body/div[2]/div[2]/div/div/div[1]/div/div/div/div/div/div[2]/form[1]/div[3]/div[2]/button
+  dashboard:
+    class: /html/body/div[2]/div[2]/div/div[2]/div[1]/div/div/div[1]/div[2]/div[2]/form/button[2]

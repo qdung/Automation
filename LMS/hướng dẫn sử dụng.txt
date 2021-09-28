@@ -1,0 +1,23 @@
+1. Cài đặt công cụ
+https://www.python.org/
+
+Nhớ tick vào add PATH to environment variable
+
+2. Cài thư viện selenium sau khi cài Python
+Mở command line: chạy các lệnh sau (không theo thứ tự)
+
+pip install selenium
+pip install pyyaml
+pip install pandas
+pip install xlrd
+pip install openpyxl
+
+3. Chỉnh sửa thông tin login trong file excel/scenario.xlsx
+Thêm username, password từ row thứ 2 trở đi trong sheet "Login"
+
+4. Vào folder AutomationTools/LMS
+mở command line trên trình duyệt bằng cách nhập 'cmd' vào đường dẫn (bỏ kí tự '')
+
+chạy lệnh
+
+py run_automation.py
